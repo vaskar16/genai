@@ -1,9 +1,7 @@
 ## Chat Bot with OpenAI API and Flask
 
-Introducing the Flask Chat Bot powered by the OpenAI API! This innovative chat bot combines the flexibility and ease of use of Flask with the power of the OpenAI API to deliver intelligent and interactive conversations. With natural language processing capabilities, the chat bot can understand user queries and provide relevant responses in real time. Whether it's customer support, information retrieval, or just casual conversation, our chat bot is ready to engage and assist users with its advanced AI capabilities. Get ready for an immersive and dynamic chat experience like never before!
+Introducing the Mortgage Chat Bot for resolving loan related queries.
 
-
-<img src="screenshot.png" alt="img_not_found">
 
 ## Prerequisites
 
@@ -39,15 +37,10 @@ Introducing the Flask Chat Bot powered by the OpenAI API! This innovative chat b
     - Use the upper “New…” button to add a User variable
     - Create a new variable called OPENAI_API_KEY and set the value to the secret key you got from your account settings on openai.com
 
-    For Mac or Linux:
-    - Find the .bashrc, .bash_profile, or .zshrc in your home directory
-    - Open the file in a text editor
-    - Add a new line to the file:
-    ``export OPENAI_API_KEY= [your secret key]``
 
 5 Run the application:
 
-    python app.py
+    python main.py
 
 6 Open your web browser and visit http://127.0.0.1:{port}/ to access the chat bot.
 
