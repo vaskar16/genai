@@ -1,0 +1,7 @@
+flask
+flask_cors
+requests
+openai
+os
+mysql.connector
+langchain
