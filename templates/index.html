@@ -41,7 +41,7 @@
         }
 
         .usermessage {
-            background-color: #097df1;
+            background-color: #3D4F61;
             color: #fff;
             padding: 0.5rem .875rem;
             border-radius: 20px;
@@ -98,9 +98,9 @@
     <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="#" class="flex items-center">
-                <img src="https://seeklogo.com/images/O/open-ai-logo-8B9BFEDC26-seeklogo.com.png" class="h-8 mr-3"
-                    alt="Flowbite Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Autochat Bot</span>
+                <img src="https://www.shutterstock.com/shutterstock/photos/2198580961/display_1500/stock-vector--d-home-icon-render-house-for-real-estate-mortgage-loan-concept-and-homepage-d-vector-cartoon-2198580961.jpg" class="h-12 mr-7"
+                    alt="Mortgage Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Mortgage Bot</span>
             </a>
 
 
@@ -110,14 +110,12 @@
     <div class="container">
         <div class="box">
             <div class="upper" id="upperid">
-                <span class="downwarning">Type your message in box below.</span>
-                
-
+                <span class="downwarning">Type your message in below box. Please do not use 'ALTER','UPDATE','DELETE' keywords.</span>               
             </div>
 
             <div class="bottom">
                  <form id="userinputform">
-                    <label class="sr-only">Your message</label>
+                    <label class="sr-only">Start chatting...</label>
                     <div class="flex items-center px-3 py-2 rounded-lg bg-gray-50 dark:bg-gray-700">
 
                         <textarea id="userinput" rows="1"
@@ -225,7 +223,7 @@
                 upperdiv.innerHTML = upperdiv.innerHTML +
                     `<div class="message">
                 <div class="appmessagediv">
-                    <div class="appmessage"  style="border: 1px solid red;">
+                    <div class="appmessage"  style="border: 1px solid no;">
                       ${message}
 
                     </div>
