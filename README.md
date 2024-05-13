@@ -16,11 +16,11 @@ Introducing the Mortgage Chat Bot for resolving loan related queries.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/paramsgit/autochat-bot
+   git clone [https://github.com/vaskar16/genai)
 
 2  Navigate to the project directory:
     
-    cd autochat-bot
+    cd genai
 
 3 Install the required dependencies using pip:
     
