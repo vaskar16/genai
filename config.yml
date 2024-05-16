@@ -1,0 +1,9 @@
+val1: "Value1"
+openai_key: "your_key"
+db_host: "localhost"
+db_user: "root"
+db_password: "Taherpur@123"
+db_database: "employeedb"
+db_auth_plugin: 'mysql_native_password'
+max_tokens : 100
+temperature : 0
