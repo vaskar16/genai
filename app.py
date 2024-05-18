@@ -154,7 +154,7 @@ def send_message():
 @app.route('/favicon.ico')
 def favicon():
     return ''
-file_path = "C:\\Users\\USER\\Vaskar\\Python\\ddl.sql"  # Replace "file.txt" with the path to your file
+file_path = config['ddl_file_path']  # Replace "file.txt" with the path to your file
 try:
     with open(file_path, "r") as file:
         # Read the entire content of the file
